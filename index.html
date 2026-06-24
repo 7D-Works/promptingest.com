@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PromptIngest</title>
+  
+  <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
+  
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #ffffff;
+      font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #1e293b;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+    .main-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .logo-img {
+      width: 800px;
+      max-width: 90%;
+      min-width: 480px;
+      height: auto;
+      margin-bottom: 32px;
+      transition: all 0.2s ease;
+    }
+
+    .status-text {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #475569;
+      letter-spacing: 0.05em;
+      line-height: 1.8;
+      margin: 0;
+    }
+
+    .footer-container {
+      width: 100%;
+      max-width: 800px;
+      padding: 40px 20px;
+      box-sizing: border-box;
+      border-top: 1px solid #f1f5f9;
+    }
+
+    .disclaimer-section {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      line-height: 1.7;
+      text-align: justify;
+    }
+
+    .disclaimer-group {
+      margin-bottom: 16px;
+    }
+
+    .disclaimer-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .copyright {
+      font-size: 0.75rem;
+      color: #64748b;
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+
+    @media (max-width: 640px) {
+      .logo-img {
+        width: 220px;
+        max-width: 85%;
+        min-width: auto;
+        margin-bottom: 24px;
+      }
+      .status-text {
+        font-size: 0.8rem;
+      }
+      .footer-container {
+        padding: 30px 20px;
+      }
+      .copyright {
+        font-size: 0.65rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main-content">
+    <img src="PromptIngest_logo.svg" alt="PromptIngest" class="logo-img">
+    <p class="status-text">
+      総務のおじさんが一人で作っているからちょっと待ってね
+    </p>
+  </div>
+
+  <footer class="footer-container">
+    <div class="copyright">
+      Give me a moment, please. Just a random salaryman  is building this all by himself.<br>
+      PromptIngest &copy; 2026 7D-Works. All rights reserved.
+    </div>
+    
+    <div class="disclaimer-section">
+      <div class="disclaimer-group">
+        本ツールは独立した開発者によって提供されており、あらゆるAI画像生成サービス・モデル開発元とは一切関係ありません。<br>
+        すべてのAI画像生成サービスの開発者およびクリエーターの皆さまに敬意を表します。<br>
+        本アプリの利用、およびAIによる変換結果によって生じた損害について、開発者は一切の責任を負いません。
+      </div>
+      
+      <div class="disclaimer-group">
+        This tool is an independent project and is not affiliated with, authorized, or endorsed by any AI image generation services or model providers.<br>
+        We express our deepest respect to all AI image generation service developers and creators worldwide.<br>
+        The developer assumes no responsibility or liability for any damages or outcomes resulting from the use of this application.
+        <br><br>
+        <a href="https://7dworks.gumroad.com/l/PromptIngest" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">https://7dworks.gumroad.com/l/PromptIngest</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
